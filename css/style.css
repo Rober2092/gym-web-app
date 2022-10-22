@@ -1023,83 +1023,11 @@ flex: 0 0 100%;
 }
 
 /*if screen width is less than or equal to 550px then*/
-@media screen {
-/*mobile responsive*/
-@media(max-width: 550px){
-  .home h1{
-	  font-size: 30px;
-  }
-  .home h2{
-	  font-size: 20px;
-  }
-  .home .btn{
-	  padding: 10px 20px;
-	  font-size: 15px;
-  }
-  .about .content .box .text h2{
-	  font-size: 25px;
-  }
-  .about .content .box .text p{
-	  font-size: 14px;
-  }
-  .service .content .box .text h2{
-	  font-size: 25px;
-  }
-  .service .content .box .text p{
-	  font-size: 14px;
-  }
-  .classes .content .class-items .item .item-text h2{
-	  font-size: 20px;
-  }
-  .classes .content .class-items .item .item-text p{
-	  font-size: 14px;
-  }
-  .schedule .content .box .text h2{
-	  font-size: 25px;
-  }
-  .schedule .content .box .text p{
-	  font-size: 14px;
-  }
-  .start-today .content .box .text h2{
-	  font-size: 25px;
-  }
-  .start-today .content .box .text p{
-	  font-size: 14px;
-  }
-  .gallery .content .box .text h2{
-	  font-size: 25px;
-  }
-  .gallery .content .box .text p{
-	  font-size: 14px;
-  }
-  .price-package .content .box .text h2{
-	  font-size: 25px;
-  }
-  .price-package .content .box .text p{
-	  font-size: 14px;
-  }
-  .contact .content .box .text h2{
-	  font-size: 25px;
-  }
-  .contact .content .box .text p{
-	  font-size: 14px;
-  }
-  .contact .content .box .form input,
-  .contact .content .box .form textarea{
-	  height: 40px;
-  }
-  .contact .content .box .form textarea{
-	  height: 80px;
-  }
-  .contact .content .box .form button{
-	  height: 40px;
-	  padding: 0px
-	
-	}
-}
-@media(max-width: 550px){
-  .home h1{
-      font-size: 30px;
-  }
+@media screen and (max-height: 450px) {
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+      font-size: 40px;
+      top: 15px;
+      right: 35px;
 }
 }
