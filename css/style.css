@@ -194,7 +194,7 @@ header .ham-burger.active span:nth-child(2){
 
 .home h1{
 	color:#ffffff;
-	font-size: 60px;
+	font-size: 50px;
 	font-weight: 700;
 	text-transform: uppercase;
 	margin:0;
@@ -227,12 +227,12 @@ header .ham-burger.active span:nth-child(2){
 	width: 100%;
 	-webkit-transform: rotateY(180deg);
 	transform: rotateY(180deg);
-	padding: 10px;
+	padding: 30px;
 	
 }
 
 .whoweare  .content .item-text h2{
-    font-size: 60px;
+    font-size: 50px;
     font-weight: 500;
     color: #ffffff;
     padding: 0px 0px 20px;
@@ -451,6 +451,7 @@ header .ham-burger.active span:nth-child(2){
 	width: 100%;
 	-webkit-transform: rotateY(180deg);
 	transform: rotateY(180deg);
+	padding: 50px 50px 50px;
 }
 
 .partners .content .text h2{
@@ -550,6 +551,8 @@ header .ham-burger.active span:nth-child(2){
 
 .partners .content .class-items .item .item-text a{
 	color:#ffffff;
+	margin: 5px;
+    padding:0 0 15px;
 }
 
 
@@ -1021,6 +1024,58 @@ flex: 0 0 100%;
     max-width: 100%;
 }
 }
+
+.footer {
+	padding:40px 0;
+	background-color:#000000;
+
+  }
+
+  .footer .footer-img {
+	text-align: center;
+  }
+
+  .footer .copyright {
+	margin-top:15px;
+	text-align:center;
+	font-size:15px;
+	color:#ffffff;
+	margin-bottom:0;
+  }
+
+
+/* .facility{
+	padding:80px 0px 50px;
+	background-color: #000000;
+}
+
+
+
+.facility .content .box{
+	padding:5px;
+	flex:0 0 100%;
+	max-width: 100%;
+}
+
+
+.facility .content .item-text h2{
+    font-size: 60px;
+    font-weight: 500;
+    color: #ffffff;
+    padding: 0px 0px 20px;
+}
+
+.facility .content .item-text p{
+  font-size: 20px;
+	line-height:50px;
+	color:#ffffff;
+	margin:20px;
+	padding:0px 0px 20px;
+	font-family: 'Open Sans', sans-serif;
+} */
+
+
+
 
 /*if screen width is less than or equal to 550px then*/
 @media screen and (max-height: 450px) {
