@@ -194,7 +194,7 @@ header .ham-burger.active span:nth-child(2){
 
 .home h1{
 	color:#ffffff;
-	font-size: 60px;
+	font-size: 50px;
 	font-weight: 700;
 	text-transform: uppercase;
 	margin:0;
@@ -232,7 +232,7 @@ header .ham-burger.active span:nth-child(2){
 }
 
 .whoweare  .content .item-text h2{
-    font-size: 60px;
+    font-size: 50px;
     font-weight: 500;
     color: #ffffff;
     padding: 0px 0px 20px;
@@ -551,6 +551,8 @@ header .ham-burger.active span:nth-child(2){
 
 .partners .content .class-items .item .item-text a{
 	color:#ffffff;
+	margin: 5px;
+    padding:0 0 15px;
 }
 
 
@@ -1030,16 +1032,13 @@ flex: 0 0 100%;
   }
 
   .footer .footer-img {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 50%;
+	text-align: center;
   }
 
   .footer .copyright {
 	margin-top:15px;
 	text-align:center;
-	font-size:13px;
+	font-size:15px;
 	color:#ffffff;
 	margin-bottom:0;
   }
