@@ -296,6 +296,7 @@ header .ham-burger.active span:nth-child(2){
 .whoweare  .content .item-text h2{
     font-size: 50px;
     font-weight: 500;
+	margin:20px;
     color: #ffffff;
     padding: 0px 0px 20px;
 }
@@ -770,7 +771,7 @@ header .ham-burger.active span:nth-child(2){
 
 .gallery h2{
 	background-color: #000000;
-	font-size: 30px;
+	font-size: 50px;
     font-weight: 500;
     color: #ffffff;
     padding: 0px 0px 20px;
