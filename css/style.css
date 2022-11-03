@@ -1131,9 +1131,9 @@ flex: 0 0 100%;
 
 
 
-/* mobile responsive */
+/*  mobile resposive   */
 
-@media(max-width: 991px){
+@media(min-width: 480px){
   .home h1{
 	  font-size: 40px;
   }
@@ -1142,12 +1142,13 @@ flex: 0 0 100%;
   }
   .about .content .box {
 	flex: 0 0 100%;
-	max-width: 100%;
-
-
-
-
-
-
+	width: 100%;
+	
 }
+
+
+
+
+
+
 }
