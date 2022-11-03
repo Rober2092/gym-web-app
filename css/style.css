@@ -1131,13 +1131,23 @@ flex: 0 0 100%;
 
 
 
+/* mobile responsive */
 
-/*if screen width is less than or equal to 550px then*/
-@media screen and (max-height: 450px) {
-    .overlay a {font-size: 20px}
-    .overlay .closebtn {
-      font-size: 40px;
-      top: 15px;
-      right: 35px;
+@media(max-width: 991px){
+  .home h1{
+	  font-size: 40px;
+  }
+  .about .content{
+  	 flex-wrap: wrap;
+  }
+  .about .content .box {
+	flex: 0 0 100%;
+	max-width: 100%;
+
+
+
+
+
+
 }
 }
