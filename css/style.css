@@ -958,18 +958,15 @@ header .ham-burger.active span:nth-child(2){
 
 }
 
-.subscribe .content .box {
-	flex:0 0 50%;
-max-width: 50%;
-padding: 15px;
-padding-bottom: 60px;
-}
+
 
 .subscribe__copy {
 	max-width: 450px;
 	margin-bottom: 53px;
 	line-height: 1.5;
 	color: white;
+
+padding: 10px;
 }
 .subscribe__title {
 	font-weight: bold;
