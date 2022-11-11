@@ -322,7 +322,7 @@ header .ham-burger.active span:nth-child(2){
 	margin: 20px;
 	padding: 0px 0px 20px;
 	font-family: 'Open Sans', sans-serif;
-	text-align: justify;
+	/* text-align: justify; */
 
   }
 
