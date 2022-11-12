@@ -300,8 +300,8 @@ header .ham-burger.active span:nth-child(2){
   
   .whoweare .content #whoweareimg {
 	width: 500px;
-	-webkit-transform: rotateY(180deg);
-	transform: rotateY(180deg);
+	/* -webkit-transform: rotateY(180deg);
+	transform: rotateY(180deg); */
 	padding: 30px;
 	height: 600px;
 	/* margin:auto; */
@@ -341,8 +341,8 @@ header .ham-burger.active span:nth-child(2){
 	  
 	  .whoweare .content #whoweareimg {
 		width: 320px;
-		-webkit-transform: rotateY(180deg);
-		transform: rotateY(180deg);
+		/* -webkit-transform: rotateY(180deg);
+		transform: rotateY(180deg); */
 		padding: 30px;
 		height: 400px;
 		display: flex;
@@ -573,8 +573,8 @@ header .ham-burger.active span:nth-child(2){
 .partners .content .img img{
 	width: 500px;
 	
-	-webkit-transform: rotateY(180deg);
-	transform: rotateY(180deg);
+	/* -webkit-transform: rotateY(180deg);
+	transform: rotateY(180deg); */
 	padding: 30px;
 	min-width: 250px;
 }
@@ -707,8 +707,8 @@ header .ham-burger.active span:nth-child(2){
 	.partners .content .img img{
 		width: 320px;
 		
-		-webkit-transform: rotateY(180deg);
-		transform: rotateY(180deg);
+		/* -webkit-transform: rotateY(180deg);
+		transform: rotateY(180deg); */
 		padding: 30px;
 		min-width: 250px;
 	}
